@@ -1,4 +1,5 @@
 import 'package:figma_design_clone/view/widgets/balance_banner.dart';
+import 'package:figma_design_clone/view/widgets/transaction_history.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -15,7 +16,10 @@ class HomePage extends StatelessWidget {
             Text('Good Morning'),
             Text('Sahal Muhammed',style: TextStyle(fontWeight: .bold,fontSize: 20),),
             SizedBox(height: 30,),
-            BalanceCard()
+            BalanceCard(),
+             SizedBox(height: 30,),
+             TransactionHistory()
+
           ],
         ),
       ),

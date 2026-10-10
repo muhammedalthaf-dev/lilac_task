@@ -16,11 +16,11 @@ class Onboarding extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 130,
+              height: 500,
               width: double.infinity,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/specular.png'),
+                  image: AssetImage('assets/Group 1.png'),
                   fit: BoxFit.cover,
                 ),
               ),
